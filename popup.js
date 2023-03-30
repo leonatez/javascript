@@ -33,4 +33,5 @@ aTag.addEventListener('click', function(event) {
 
   // append the popup to the body
   document.body.appendChild(popup);
+  console.log('Clicked');
 });
