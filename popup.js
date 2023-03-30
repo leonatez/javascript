@@ -1,6 +1,6 @@
 // get the a tag element
 var aTag = document.querySelector('a.partner-url');
-
+console.log('Loaded')
 aTag.addEventListener('click', function(event) {
   // prevent the default behavior of the click event
   event.preventDefault();
